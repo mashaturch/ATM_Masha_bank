@@ -784,6 +784,7 @@ def money_transfers():
     label_menu.place_forget()
     label_2.configure(text='Введите номер карты:', bg='#E5E5E4', height=1, width=40)
     label_2.place(x=258, y=150)
+    sum_money.delete(0, len(sum_money.get()))
     sum_money.place(x=442, y=210, width=320, height=50)
 
     # working with buttons on the keyboard
